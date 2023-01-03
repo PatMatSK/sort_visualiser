@@ -1,0 +1,17 @@
+Color use map
+
+comparing and swapping 2 rectangles:
+- correct mutual order - green
+- wrong mutual order - red (swapping)
+
+after quicksort step:
+- lower than pivot - green
+- pivot - orange
+- bigger than pivot - red
+(so you can see witch sublist is processing)
+
+after mergesort step:
+- also is used comparing (above)
+- left list - green
+- right list - red
+(so after merge you can see where they came from)
