@@ -1,5 +1,5 @@
 """ test module """
-# codestyle tests taken from homeworks
+# codestyle tests taken from CTU FIT, BI-PYT (subject) homeworks
 import pytest
 import inspect
 from pylint.lint import Run
@@ -19,7 +19,7 @@ _setup.TIME_OUT_MOVE = 1
 
 @pytest.fixture
 def linter():
-    """ Test codestyle for src file. From BI-PYT homeworks """
+    """ Test codestyle for src file. From CTU-FIT/BI-PYT homeworks """
     src_file0 = inspect.getfile(main)
     src_file1 = inspect.getfile(_setup)
     src_file2 = inspect.getfile(_index)
@@ -38,7 +38,7 @@ def linter():
 
 @pytest.mark.parametrize("limit", range(0, 11))
 def test_codestyle_score(linter, limit, runs=[]):
-    """Evaluate codestyle for different thresholds.  From BI-PYT homeworks ."""
+    """Evaluate codestyle for different thresholds. From CTU-FIT/BI-PYT homeworks ."""
     if len(runs) == 0:
         print("\nLinter output:")
         for m in linter.reporter.messages:
