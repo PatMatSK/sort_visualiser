@@ -1,7 +1,7 @@
 Sorting visualiser
 -
 
-(This project was done as semestrak work at CTU FIT BI-PYT)
+(This project was done as semestral work at CTU FIT BI-PYT)
 
 This program displays sorting algorithms. You can run algorithm to see how it works, or go step by step. 
 I have chosen 2 quadratic(Bubble sort, Select sort) and 2 logarithmic 
