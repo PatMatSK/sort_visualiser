@@ -1,6 +1,8 @@
 Sorting visualiser
 -
 
+(This project was done as semestrak work at CTU FIT BI-PYT)
+
 This program displays sorting algorithms. You can run algorithm to see how it works, or go step by step. 
 I have chosen 2 quadratic(Bubble sort, Select sort) and 2 logarithmic 
 algorithms(Quick sort, Merge sort). Stepping quadratic algorithms shows one step of inner loop, while 
@@ -8,10 +10,10 @@ logarithmic shows one depth of recursion.
 
 Requirements:
 - tkinter
-- pylint
-- pytest
-- math
 - random
+- pylint (testing)
+- pytest (testing)
+- math   (testing)
 
 User can interact with program with GUI, or send commands from CLI.
 To use GUI only, clone this repository, enter sorting_visualisation directory and run program with your version of python:
@@ -38,7 +40,7 @@ Allowed commands:
 - mix - shuffle rectangles 
 - end - quit program
 
-To run all tests simply run test.sh script. (You wil probably need to add permission to execute fist.)
+To run all tests simply run test.sh script. (You will probably need to add permission to execute first.)
 - chmod +x test.sh
 - ./test.sh
 
