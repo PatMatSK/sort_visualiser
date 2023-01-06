@@ -12,6 +12,7 @@ OFFSET = 20
 
 root = tk.Tk()
 root.resizable(False, False)
+root.title("Sort Visualiser")
 canvas = tk.Canvas(root, width=CANVAS_WIDTH, height=CANVAS_HEIGHT)
 canvas.pack()
 
